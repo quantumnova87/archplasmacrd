@@ -1,0 +1,16 @@
+{
+  "name": "Arch KDE Plasma",
+  "image": "archlinux:latest",
+  "features": {},
+  "postCreateCommand": "/bin/bash /post-install.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.remote-explorer",
+        "ms-vscode-remote.remote-containers"
+      ]
+    }
+  },
+  "containerUser": "user",
+  "remoteUser": "user"
+}
